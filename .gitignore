@@ -1,0 +1,15 @@
+ADNNotifier.xcodeproj/project.xcworkspace/
+ADNNotifier.xcodeproj/xcuserdata/
+ADNNotifier.xcworkspace/xcuserdata/
+ADNNotifier.xcworkspace/xcshareddata/
+*.pyc
+.DS_Store
+*.swp
+*.swo
+*.o
+*~
+*#
+*.pid
+*emacs.desktop*
+build/
+Pods
