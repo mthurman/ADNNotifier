@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C071CD189453D20084DC7A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C071CC189453D20084DC7A /* Cocoa.framework */; };
+		19C071D7189453D20084DC7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19C071D5189453D20084DC7A /* InfoPlist.strings */; };
+		19C071D9189453D20084DC7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C071D8189453D20084DC7A /* main.m */; };
+		19C071DD189453D20084DC7A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 19C071DB189453D20084DC7A /* Credits.rtf */; };
+		19C071E0189453D20084DC7A /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C071DF189453D20084DC7A /* MTAppDelegate.m */; };
+		19C071E3189453D20084DC7A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C071E1189453D20084DC7A /* MainMenu.xib */; };
+		19C071E5189453D20084DC7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C071E4189453D20084DC7A /* Images.xcassets */; };
+		19C071EC189453D20084DC7A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C071EB189453D20084DC7A /* XCTest.framework */; };
+		19C071ED189453D20084DC7A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C071CC189453D20084DC7A /* Cocoa.framework */; };
+		19C071F5189453D20084DC7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19C071F3189453D20084DC7A /* InfoPlist.strings */; };
+		19C071F7189453D20084DC7A /* ADNNotifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C071F6189453D20084DC7A /* ADNNotifierTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C071EE189453D20084DC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C071C1189453D20084DC7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C071C8189453D20084DC7A;
+			remoteInfo = ADNNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19C071C9189453D20084DC7A /* ADNNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADNNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C071CC189453D20084DC7A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		19C071CF189453D20084DC7A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		19C071D0189453D20084DC7A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		19C071D1189453D20084DC7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19C071D4189453D20084DC7A /* ADNNotifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADNNotifier-Info.plist"; sourceTree = "<group>"; };
+		19C071D6189453D20084DC7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19C071D8189453D20084DC7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19C071DA189453D20084DC7A /* ADNNotifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADNNotifier-Prefix.pch"; sourceTree = "<group>"; };
+		19C071DC189453D20084DC7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		19C071DE189453D20084DC7A /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		19C071DF189453D20084DC7A /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		19C071E2189453D20084DC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		19C071E4189453D20084DC7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19C071EA189453D20084DC7A /* ADNNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADNNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C071EB189453D20084DC7A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		19C071F2189453D20084DC7A /* ADNNotifierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADNNotifierTests-Info.plist"; sourceTree = "<group>"; };
+		19C071F4189453D20084DC7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19C071F6189453D20084DC7A /* ADNNotifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNNotifierTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C071C6189453D20084DC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C071CD189453D20084DC7A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C071E7189453D20084DC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C071ED189453D20084DC7A /* Cocoa.framework in Frameworks */,
+				19C071EC189453D20084DC7A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C071C0189453D20084DC7A = {
+			isa = PBXGroup;
+			children = (
+				19C071D2189453D20084DC7A /* ADNNotifier */,
+				19C071F0189453D20084DC7A /* ADNNotifierTests */,
+				19C071CB189453D20084DC7A /* Frameworks */,
+				19C071CA189453D20084DC7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19C071CA189453D20084DC7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C071C9189453D20084DC7A /* ADNNotifier.app */,
+				19C071EA189453D20084DC7A /* ADNNotifierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C071CB189453D20084DC7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19C071CC189453D20084DC7A /* Cocoa.framework */,
+				19C071EB189453D20084DC7A /* XCTest.framework */,
+				19C071CE189453D20084DC7A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19C071CE189453D20084DC7A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19C071CF189453D20084DC7A /* AppKit.framework */,
+				19C071D0189453D20084DC7A /* CoreData.framework */,
+				19C071D1189453D20084DC7A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C071D2189453D20084DC7A /* ADNNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				19C071DE189453D20084DC7A /* MTAppDelegate.h */,
+				19C071DF189453D20084DC7A /* MTAppDelegate.m */,
+				19C071E1189453D20084DC7A /* MainMenu.xib */,
+				19C071E4189453D20084DC7A /* Images.xcassets */,
+				19C071D3189453D20084DC7A /* Supporting Files */,
+			);
+			path = ADNNotifier;
+			sourceTree = "<group>";
+		};
+		19C071D3189453D20084DC7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C071D4189453D20084DC7A /* ADNNotifier-Info.plist */,
+				19C071D5189453D20084DC7A /* InfoPlist.strings */,
+				19C071D8189453D20084DC7A /* main.m */,
+				19C071DA189453D20084DC7A /* ADNNotifier-Prefix.pch */,
+				19C071DB189453D20084DC7A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19C071F0189453D20084DC7A /* ADNNotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C071F6189453D20084DC7A /* ADNNotifierTests.m */,
+				19C071F1189453D20084DC7A /* Supporting Files */,
+			);
+			path = ADNNotifierTests;
+			sourceTree = "<group>";
+		};
+		19C071F1189453D20084DC7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C071F2189453D20084DC7A /* ADNNotifierTests-Info.plist */,
+				19C071F3189453D20084DC7A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C071C8189453D20084DC7A /* ADNNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C071FA189453D20084DC7A /* Build configuration list for PBXNativeTarget "ADNNotifier" */;
+			buildPhases = (
+				19C071C5189453D20084DC7A /* Sources */,
+				19C071C6189453D20084DC7A /* Frameworks */,
+				19C071C7189453D20084DC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADNNotifier;
+			productName = ADNNotifier;
+			productReference = 19C071C9189453D20084DC7A /* ADNNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19C071E9189453D20084DC7A /* ADNNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C071FD189453D20084DC7A /* Build configuration list for PBXNativeTarget "ADNNotifierTests" */;
+			buildPhases = (
+				19C071E6189453D20084DC7A /* Sources */,
+				19C071E7189453D20084DC7A /* Frameworks */,
+				19C071E8189453D20084DC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C071EF189453D20084DC7A /* PBXTargetDependency */,
+			);
+			name = ADNNotifierTests;
+			productName = ADNNotifierTests;
+			productReference = 19C071EA189453D20084DC7A /* ADNNotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C071C1189453D20084DC7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mark Thurman";
+				TargetAttributes = {
+					19C071E9189453D20084DC7A = {
+						TestTargetID = 19C071C8189453D20084DC7A;
+					};
+				};
+			};
+			buildConfigurationList = 19C071C4189453D20084DC7A /* Build configuration list for PBXProject "ADNNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C071C0189453D20084DC7A;
+			productRefGroup = 19C071CA189453D20084DC7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C071C8189453D20084DC7A /* ADNNotifier */,
+				19C071E9189453D20084DC7A /* ADNNotifierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19C071C7189453D20084DC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C071D7189453D20084DC7A /* InfoPlist.strings in Resources */,
+				19C071E5189453D20084DC7A /* Images.xcassets in Resources */,
+				19C071DD189453D20084DC7A /* Credits.rtf in Resources */,
+				19C071E3189453D20084DC7A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C071E8189453D20084DC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C071F5189453D20084DC7A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C071C5189453D20084DC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C071D9189453D20084DC7A /* main.m in Sources */,
+				19C071E0189453D20084DC7A /* MTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C071E6189453D20084DC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C071F7189453D20084DC7A /* ADNNotifierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19C071EF189453D20084DC7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C071C8189453D20084DC7A /* ADNNotifier */;
+			targetProxy = 19C071EE189453D20084DC7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19C071D5189453D20084DC7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C071D6189453D20084DC7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19C071DB189453D20084DC7A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C071DC189453D20084DC7A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		19C071E1189453D20084DC7A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C071E2189453D20084DC7A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		19C071F3189453D20084DC7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C071F4189453D20084DC7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19C071F8189453D20084DC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		19C071F9189453D20084DC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		19C071FB189453D20084DC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNNotifier/ADNNotifier-Prefix.pch";
+				INFOPLIST_FILE = "ADNNotifier/ADNNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19C071FC189453D20084DC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNNotifier/ADNNotifier-Prefix.pch";
+				INFOPLIST_FILE = "ADNNotifier/ADNNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19C071FE189453D20084DC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ADNNotifier.app/Contents/MacOS/ADNNotifier";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNNotifier/ADNNotifier-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ADNNotifierTests/ADNNotifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		19C071FF189453D20084DC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ADNNotifier.app/Contents/MacOS/ADNNotifier";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNNotifier/ADNNotifier-Prefix.pch";
+				INFOPLIST_FILE = "ADNNotifierTests/ADNNotifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C071C4189453D20084DC7A /* Build configuration list for PBXProject "ADNNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C071F8189453D20084DC7A /* Debug */,
+				19C071F9189453D20084DC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C071FA189453D20084DC7A /* Build configuration list for PBXNativeTarget "ADNNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C071FB189453D20084DC7A /* Debug */,
+				19C071FC189453D20084DC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19C071FD189453D20084DC7A /* Build configuration list for PBXNativeTarget "ADNNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C071FE189453D20084DC7A /* Debug */,
+				19C071FF189453D20084DC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19C071C1189453D20084DC7A /* Project object */;
+}
