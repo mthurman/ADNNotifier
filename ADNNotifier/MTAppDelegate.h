@@ -7,9 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <ADNKit/ADNKit.h>
 
-@interface MTAppDelegate : NSObject <NSApplicationDelegate>
+@interface MTAppDelegate : NSObject <NSApplicationDelegate, ANKStreamingDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+
+-(NSString *)getAccessToken;
 
 @end
