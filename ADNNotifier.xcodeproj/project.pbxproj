@@ -18,6 +18,7 @@
 		19C071ED189453D20084DC7A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C071CC189453D20084DC7A /* Cocoa.framework */; };
 		19C071F5189453D20084DC7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19C071F3189453D20084DC7A /* InfoPlist.strings */; };
 		19C071F7189453D20084DC7A /* ADNNotifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C071F6189453D20084DC7A /* ADNNotifierTests.m */; };
+		19EDCE5F189498D00083AD44 /* MTSubscriptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EDCE5E189498D00083AD44 /* MTSubscriptionHandler.m */; };
 		FAAFF7384DF040A385D7A5F8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5BD36EDD7F4DE88F0206AF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,8 @@
 		19C071F2189453D20084DC7A /* ADNNotifierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADNNotifierTests-Info.plist"; sourceTree = "<group>"; };
 		19C071F4189453D20084DC7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19C071F6189453D20084DC7A /* ADNNotifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNNotifierTests.m; sourceTree = "<group>"; };
+		19EDCE5D189498D00083AD44 /* MTSubscriptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSubscriptionHandler.h; sourceTree = "<group>"; };
+		19EDCE5E189498D00083AD44 /* MTSubscriptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSubscriptionHandler.m; sourceTree = "<group>"; };
 		1D5BD36EDD7F4DE88F0206AF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E712AFB081BE49D1A880760C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +129,8 @@
 				19C071E1189453D20084DC7A /* MainMenu.xib */,
 				19C071E4189453D20084DC7A /* Images.xcassets */,
 				19C071D3189453D20084DC7A /* Supporting Files */,
+				19EDCE5D189498D00083AD44 /* MTSubscriptionHandler.h */,
+				19EDCE5E189498D00083AD44 /* MTSubscriptionHandler.m */,
 			);
 			path = ADNNotifier;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19C071D9189453D20084DC7A /* main.m in Sources */,
+				19EDCE5F189498D00083AD44 /* MTSubscriptionHandler.m in Sources */,
 				19C071E0189453D20084DC7A /* MTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
